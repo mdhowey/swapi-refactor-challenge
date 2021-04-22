@@ -6,16 +6,7 @@
 
 ## Intro
 
-In this deliverable, you'll consume the [Star Wars API](https://www.swapi.tech/) and render its data.
-
-## Set Up
-
-To get set up:
-
-- Use `create-react-app` to create a React app named `react-star-wars`
-- `cd` into `react-star-wars` and open VS Code.
-- Open a terminal in VS Code.
-- Start the React Dev Server.
+In this deliverable, you'll consume the [Star Wars API](https://www.swapi.tech/) and render its data. Create a new react app in this folder. You can hardcode the backend urls, don't worry about storing them in a .env file.
 
 ## Core Goals
 1. Obtain all of the starships from the API. For each one, render a clickable `<Link>` in `<App>` for each starship. The link should lead to `/ships/<theSelectedShipsId>`, and display the ship's name. 
