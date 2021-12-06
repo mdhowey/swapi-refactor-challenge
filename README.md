@@ -29,8 +29,6 @@ In this deliverable, you'll consume the [Star Wars API](https://www.swapi.tech/)
     - I can go to the Saved Ships page and see a list of all my saved ships (fetched from the backend)
     - Super Stretch: for each of the faved pokemon, I see additional data from the api (types, stats, image, etc)
     - Super Stretch: I can click the already-faved icon for any pokemon and remove it from my faves
-<br/>
-<br/>
 
 1. On both the main list and the single ship view, render a "Loading..." message until the data has finished loading. This can be done with a conditional render that looks at the appropriate piece of state.
 
