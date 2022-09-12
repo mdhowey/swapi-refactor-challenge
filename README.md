@@ -19,7 +19,7 @@ In this deliverable, you'll consume the [Star Wars API](https://swapi.dev/) and 
 1. Obtain all of the starships from the API Endpoint: `https://swapi.dev/api/starships`) and display `<Link/>` to each ship inside your `<StarshipsList/>`. 
 1. Use `useEffect` to make the request as soon as your topmost-level component loads (App), and store it in state (starShips).
 1. In your `<StarshipsList/>`, for each one ship in state, render a `<Link>` in for that starship. The link should lead to `/ships/<theSelectedShipsId>`, and display the ship's name.
-1. When a starship `<Link>` is clicked, a `<StarshipPage>` component should be rendered. Pass into the StarshipPage the id parameter from the url. Take a look at the answers from this week's `React-Router` codealong and use it as a guide (https://git.generalassemb.ly/seir-1213/react-router) and lesson [solution code](https://git.generalassemb.ly/seir-1213/react-bitcoin-prices/tree/solution-code)
+1. When a starship `<Link>` is clicked, a `<StarshipPage>` component should be rendered. Pass into the StarshipPage the id parameter from the url. Review your lesson notes and the notion for references to the useParams react-router hook.
 1. When the `<StarshipPage />` component loads, it should make a request to get the full details about the specified ship. Display that ship's name, model, manufacturer, and any other attributes you find interesting. (Hint: useEffect)
 1. The StarshipPage should have a "Return to Starship List" link. Hint: you'll set the link to route back to your `StarshipsList` path. 
 
