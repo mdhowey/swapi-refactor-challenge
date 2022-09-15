@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-wrapper {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  padding: 3rem;
+  justify-content: center;
+  background-color: rgb(24, 24, 24);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  justify-content: center;
+  border: 3.5px solid transparent;
+  background-color: rgba(0, 0, 0, 0.863);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-wrapper:hover {
+  background-color: darkcyan;
+  border-radius: 1rem;
+  border-color: orangered;
+}
+
+.card-wrapper:hover * {
+  color: white;
+}
+
+.card-label {
+  color: lightslategray;
+  text-transform: uppercase;
+}
+
+.card-heading {
+  color: palegoldenrod;
+  margin: 0.5rem;
+}
+
+.card-subheading {
+  color: palegoldenrod;
+  margin: 0.5rem;
+}
+
+.card-detail {
+  color: palegoldenrod;
+  margin: 0.5rem;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+a {
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  color: lightsteelblue;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: darkslateblue;
+}

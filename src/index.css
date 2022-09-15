@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Mono', monospace;
+  background-color: black;
+}
